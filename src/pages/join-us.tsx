@@ -29,6 +29,10 @@ const Section = styled.section`
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const Chunk = styled.div`
@@ -83,6 +87,14 @@ const Button = styled.button`
   border: none;
   text-align: left;
   padding: 0 16px;
+`;
+
+const Form = styled.form`
+  padding: 48px;
+
+  @media (max-width: 768px) {
+    padding-top: 0;
+  }
 `;
 
 function Profile({
@@ -163,7 +175,7 @@ const JoinUsPage = () => {
             </Overline>
           </Chunk>
           <Chunk>
-            <form
+            <Form
               action="https://getform.io/f/1a20fa71-e8a5-424d-9b1a-d96f0b2326c1"
               method="POST"
               onSubmit={(e) => {
@@ -244,7 +256,7 @@ const JoinUsPage = () => {
                 </span>{" "}
                 Looking forward to connect!
               </Button>
-            </form>
+            </Form>
           </Chunk>
         </Section>
       </Header>
@@ -257,7 +269,7 @@ const JoinUsPage = () => {
               culture.
             </H2>
           </Chunk>
-          <Chunk>
+          <Chunk style={{ padding: "0 48px" }}>
             <div
               style={{
                 display: "flex",

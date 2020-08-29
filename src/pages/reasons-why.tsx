@@ -14,7 +14,7 @@ import image2 from "../images/reasons-why/Plaxall-Anable-Basin-1.jpg";
 const Headline = styled.h1`
   font-family: "Antique Oliver", sans-serif;
   max-width: 540px;
-  padding: 48px;
+  padding: 0 48px;
   font-size: 48px;
   color: #1a1f3b;
 `;
@@ -45,10 +45,14 @@ const Section = styled.section`
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const Chunk = styled.div`
   flex: 1 0 50%;
+  margin-top: 48px;
 `;
 
 const Overline = styled.div`
@@ -72,7 +76,7 @@ const ReasonsWhyPage = () => (
       </Section>
     </Header>
     <main style={{ backgroundColor: "#1a1f3b" }}>
-      <Section style={{ padding: "96px 48px" }}>
+      <Section style={{ padding: "48px 48px" }}>
         <Chunk>
           <H2 style={{ color: "#00907C" }}>Positive Numbers</H2>
           <Overline>
@@ -89,7 +93,7 @@ const ReasonsWhyPage = () => (
           </Overline>
         </Chunk>
       </Section>
-      <Section style={{ padding: "32px 48px" }}>
+      <Section style={{ padding: "0 48px" }}>
         <H2 style={{ color: "#00907C" }}>Our next move</H2>
       </Section>
       <Section
