@@ -156,7 +156,7 @@ const IndexPage = () => (
         </div>
       </Chunk>
     </Section>
-    <div
+    <Section
       style={{
         backgroundColor: "#1A1F3B",
         color: "white",
@@ -166,12 +166,10 @@ const IndexPage = () => (
         alignItems: "center",
       }}
     >
-      <Section>
-        <H2 style={{ width: "420px", padding: "48px" }}>
-          We believe in crafting a vibrant culture around food.
-        </H2>
-      </Section>
-    </div>
+      <H2 style={{ width: "420px", padding: "48px" }}>
+        We believe in crafting a vibrant culture around food.
+      </H2>
+    </Section>
     <ReverseSection>
       <Chunk>
         <div
