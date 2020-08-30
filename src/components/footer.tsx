@@ -1,6 +1,7 @@
 import * as React from "react";
 import styled from "@emotion/styled";
 import { Link } from "gatsby";
+import logomark from "../images/K_white.png";
 
 const Headline = styled.h1`
   max-width: 400px;
@@ -95,7 +96,13 @@ export default function () {
           </div>
         </Chunk>
         <Chunk>
-          <div style={{ display: "flex", color: "white" }}>
+          <div
+            style={{ display: "flex", color: "white", alignItems: "center" }}
+          >
+            <img
+              src={logomark}
+              style={{ height: "70px", marginRight: "16px", marginBottom: 0 }}
+            />
             <div style={{ fontFamily: "Pilcrow" }}>
               <div style={{ fontFamily: "Pilcrow-Heavy" }}>
                 Kitchens Confidential
