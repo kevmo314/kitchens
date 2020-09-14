@@ -256,6 +256,7 @@ const JoinUsPage = () => {
                     fontFamily: '"Antique Oliver", sans-serif',
                     fontWeight: "bold",
                     marginRight: "16px",
+                    height: "20px",
                   }}
                 >
                   submit
