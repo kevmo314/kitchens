@@ -77,7 +77,8 @@ export default function () {
         }}
       >
         <Chunk style={{ display: "flex" }}>
-          <div
+          <Link
+            to="/join-us"
             style={{
               fontFamily: '"Antique Oliver", sans-serif',
               backgroundColor: "#00907C",
@@ -93,7 +94,7 @@ export default function () {
             }}
           >
             Are you ready?
-          </div>
+          </Link>
         </Chunk>
         <Chunk>
           <div

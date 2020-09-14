@@ -62,6 +62,17 @@ const Overline = styled.div`
   color: white;
 `;
 
+const MoreInfoLink = styled.a`
+  display: inline-block;
+  background-color: #ffd768;
+  color: #1a1f3b;
+  font-family: "Antique Oliver", sans-serif;
+  font-size: 16px;
+  margin-top: 24px;
+  padding: 4px 8px;
+  text-decoration: none;
+`;
+
 const ReasonsWhyPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -83,6 +94,9 @@ const ReasonsWhyPage = () => (
             We work hard on crafting a financial model that will make positive
             impacts on your bottom line so you are empowered to grow your dream.
           </Overline>
+          <MoreInfoLink href="/Reasons_Why_01_Economic.pdf">
+            more info
+          </MoreInfoLink>
         </Chunk>
         <Chunk>
           <H2 style={{ color: "#00907C" }}>Health &amp; Safty Commitments</H2>
@@ -91,6 +105,9 @@ const ReasonsWhyPage = () => (
             providing clear guidlines and supports. Together, we can create a
             safe and healthy environment to cook and to enjoy food.
           </Overline>
+          <MoreInfoLink href="/Reasons_Why_02_Health.pdf">
+            more info
+          </MoreInfoLink>
         </Chunk>
       </Section>
       <Section style={{ padding: "0 48px" }}>
@@ -121,6 +138,9 @@ const ReasonsWhyPage = () => (
             Ironside, the newest Newark central business hub, is a state-of-the
             art office and retail destination with plenty of historical charm.
           </Overline>
+          <MoreInfoLink href="/KC_Ironside_08262020.pdf">
+            more info
+          </MoreInfoLink>
         </Chunk>
         <Chunk>
           <div

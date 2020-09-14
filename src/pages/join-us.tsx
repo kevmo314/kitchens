@@ -251,7 +251,13 @@ const JoinUsPage = () => {
               />
 
               <Button type="submit">
-                <span style={{ fontWeight: "bold", marginRight: "16px" }}>
+                <span
+                  style={{
+                    fontFamily: '"Antique Oliver", sans-serif',
+                    fontWeight: "bold",
+                    marginRight: "16px",
+                  }}
+                >
                   submit
                 </span>{" "}
                 Looking forward to connect!
@@ -261,7 +267,7 @@ const JoinUsPage = () => {
         </Section>
       </Header>
       <main style={{ backgroundColor: "#1a1f3b" }}>
-        <Section style={{ padding: "128px 0" }}>
+        <Section style={{ paddingTop: "128px" }}>
           <Chunk>
             <H2 style={{ color: "#00907C", padding: "48px" }}>
               What makes us the best team for you? We believe, through food, we
