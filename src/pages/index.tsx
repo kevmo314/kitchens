@@ -1,32 +1,29 @@
-import React from "react";
-import { Link } from "gatsby";
-
-import Layout from "../components/layout";
-import Header from "../components/header";
-import Footer from "../components/footer";
-import Image from "../components/image";
-import SEO from "../components/seo";
 import styled from "@emotion/styled";
-import image1 from "../images/index/photo-1481931098730-318b6f776db0.jpg";
-import image2 from "../images/index/photo-1595475038784-bbe439ff41e6.jpg";
-import image3 from "../images/index/photo-1567181567863-dbec7cad7e6b.jpg";
+import React from "react";
+import Footer from "../components/footer";
+import Header from "../components/header";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 import image4 from "../images/index/117bc02ee94e5391b57de17e7951c20b.jpg";
-import image5 from "../images/index/photo-1591601392196-dd6afe757012.jpg";
-import image6 from "../images/index/photo-1517741858398-433087302cf4.jpg";
 import image7 from "../images/index/Chef003.jpg";
-import image8 from "../images/index/photo-1577219491135-ce391730fb2c.jpg";
-import image9 from "../images/index/Single_Plot.svg";
-import image10 from "../images/index/photo-1596129098135-f397b7b61bf3.jpg";
-import image11 from "../images/index/KC_API.jpg";
-import image12 from "../images/index/photo-1515378791036-0648a3ef77b2.jpg";
-import image13 from "../images/index/photo-1463569482774-e63b918040ff.jpg";
-import image14 from "../images/index/photo-1531947398206-60f8e97f34a2.jpg";
 import image15 from "../images/index/Front_of_House.svg";
-import image16 from "../images/index/KC_Web.jpg";
+import image11 from "../images/index/KC_API.jpg";
 import image17 from "../images/index/KC_bag.jpg";
-import image18 from "../images/index/KC_man_in_tshirt.jpg";
-import image19 from "../images/index/KC_food_box.jpg";
 import counter from "../images/index/KC_Counter.png";
+import image19 from "../images/index/KC_food_box.jpg";
+import image18 from "../images/index/KC_man_in_tshirt.jpg";
+import image16 from "../images/index/KC_Web.jpg";
+import image13 from "../images/index/photo-1463569482774-e63b918040ff.jpg";
+import image1 from "../images/index/photo-1481931098730-318b6f776db0.jpg";
+import image12 from "../images/index/photo-1515378791036-0648a3ef77b2.jpg";
+import image6 from "../images/index/photo-1517741858398-433087302cf4.jpg";
+import image14 from "../images/index/photo-1531947398206-60f8e97f34a2.jpg";
+import image3 from "../images/index/photo-1567181567863-dbec7cad7e6b.jpg";
+import image8 from "../images/index/photo-1577219491135-ce391730fb2c.jpg";
+import image5 from "../images/index/photo-1591601392196-dd6afe757012.jpg";
+import image2 from "../images/index/photo-1595475038784-bbe439ff41e6.jpg";
+import image10 from "../images/index/photo-1596129098135-f397b7b61bf3.jpg";
+import image9 from "../images/index/Single_Plot.svg";
 
 const Headline = styled.h1`
   font-family: "Antique Oliver", sans-serif;
@@ -143,7 +140,7 @@ const Notch = styled.span`
 `;
 
 const IndexPage = () => {
-  const [tab, setTab] = React.useState<"amenities" | "equipment">("amenities");
+  const [tab, setTab] = React.useState<"amenities" | "equipment">();
 
   return (
     <Layout>

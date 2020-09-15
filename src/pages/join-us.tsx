@@ -1,17 +1,13 @@
-import React from "react";
-import { Link } from "gatsby";
-
-import Layout from "../components/layout";
-import Header from "../components/header";
-import Footer from "../components/footer";
-import Image from "../components/image";
-import SEO from "../components/seo";
 import styled from "@emotion/styled";
-
+import React from "react";
+import Footer from "../components/footer";
+import Header from "../components/header";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 import danny from "../images/join-us/Danny.jpg";
 import hudson from "../images/join-us/Hudson.jpg";
-import thabo from "../images/join-us/Thabo.jpg";
 import jen from "../images/join-us/Jen.jpg";
+import thabo from "../images/join-us/Thabo.jpg";
 
 const Headline = styled.h1`
   font-family: "Antique Oliver", sans-serif;
